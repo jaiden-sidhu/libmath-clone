@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/libmath_examples.dir/main.cpp.o -o libmath_examples  ../src/liblibmath.a 

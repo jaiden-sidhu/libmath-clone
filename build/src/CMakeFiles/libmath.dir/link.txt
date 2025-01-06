@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibmath.a CMakeFiles/libmath.dir/arithmetic.cpp.o CMakeFiles/libmath.dir/factorial.cpp.o CMakeFiles/libmath.dir/prime.cpp.o CMakeFiles/libmath.dir/gcd.cpp.o CMakeFiles/libmath.dir/matrix.cpp.o
+/usr/bin/ranlib liblibmath.a

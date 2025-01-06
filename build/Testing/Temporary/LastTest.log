@@ -1,0 +1,89 @@
+Start testing: Jan 06 16:21 CST
+----------------------------------------------------------
+1/1 Testing: LibMathTests
+1/1 Test: LibMathTests
+Command: "/home/jaiden_sidhu/Personal/CMake Libmath/build/tests/libmath_tests"
+Directory: /home/jaiden_sidhu/Personal/CMake Libmath/build/tests
+"LibMathTests" start time: Jan 06 16:21 CST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 25 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 4 tests from ArithmeticTest
+[ RUN      ] ArithmeticTest.Addition
+[       OK ] ArithmeticTest.Addition (0 ms)
+[ RUN      ] ArithmeticTest.Subtraction
+[       OK ] ArithmeticTest.Subtraction (0 ms)
+[ RUN      ] ArithmeticTest.Multiplication
+[       OK ] ArithmeticTest.Multiplication (0 ms)
+[ RUN      ] ArithmeticTest.Division
+[       OK ] ArithmeticTest.Division (0 ms)
+[----------] 4 tests from ArithmeticTest (0 ms total)
+
+[----------] 1 test from FactorialTest
+[ RUN      ] FactorialTest.Factorial
+[       OK ] FactorialTest.Factorial (0 ms)
+[----------] 1 test from FactorialTest (0 ms total)
+
+[----------] 5 tests from PrimeFunctionsTest
+[ RUN      ] PrimeFunctionsTest.IsPrime
+[       OK ] PrimeFunctionsTest.IsPrime (0 ms)
+[ RUN      ] PrimeFunctionsTest.GeneratePrimes
+[       OK ] PrimeFunctionsTest.GeneratePrimes (0 ms)
+[ RUN      ] PrimeFunctionsTest.NextPrime
+[       OK ] PrimeFunctionsTest.NextPrime (0 ms)
+[ RUN      ] PrimeFunctionsTest.PreviousPrime
+[       OK ] PrimeFunctionsTest.PreviousPrime (0 ms)
+[ RUN      ] PrimeFunctionsTest.PrimeFactors
+[       OK ] PrimeFunctionsTest.PrimeFactors (0 ms)
+[----------] 5 tests from PrimeFunctionsTest (0 ms total)
+
+[----------] 8 tests from GCDTest
+[ RUN      ] GCDTest.GCD
+[       OK ] GCDTest.GCD (0 ms)
+[ RUN      ] GCDTest.LCM
+[       OK ] GCDTest.LCM (0 ms)
+[ RUN      ] GCDTest.Coprime
+[       OK ] GCDTest.Coprime (0 ms)
+[ RUN      ] GCDTest.ExtendedGCD_Basic
+[       OK ] GCDTest.ExtendedGCD_Basic (0 ms)
+[ RUN      ] GCDTest.ExtendedGCD_OneDivisor
+[       OK ] GCDTest.ExtendedGCD_OneDivisor (0 ms)
+[ RUN      ] GCDTest.ExtendedGCD_CoprimeNumbers
+[       OK ] GCDTest.ExtendedGCD_CoprimeNumbers (0 ms)
+[ RUN      ] GCDTest.ExtendedGCD_OneZeroInput
+[       OK ] GCDTest.ExtendedGCD_OneZeroInput (0 ms)
+[ RUN      ] GCDTest.ExtendedGCD_EqualNumbers
+[       OK ] GCDTest.ExtendedGCD_EqualNumbers (0 ms)
+[----------] 8 tests from GCDTest (0 ms total)
+
+[----------] 7 tests from MatrixFunctionsTest
+[ RUN      ] MatrixFunctionsTest.Add
+[       OK ] MatrixFunctionsTest.Add (0 ms)
+[ RUN      ] MatrixFunctionsTest.Subtract
+[       OK ] MatrixFunctionsTest.Subtract (0 ms)
+[ RUN      ] MatrixFunctionsTest.Multiply
+[       OK ] MatrixFunctionsTest.Multiply (0 ms)
+[ RUN      ] MatrixFunctionsTest.Transpose
+[       OK ] MatrixFunctionsTest.Transpose (0 ms)
+[ RUN      ] MatrixFunctionsTest.IsSquare
+[       OK ] MatrixFunctionsTest.IsSquare (0 ms)
+[ RUN      ] MatrixFunctionsTest.Determinant
+[       OK ] MatrixFunctionsTest.Determinant (0 ms)
+[ RUN      ] MatrixFunctionsTest.Inverse
+[       OK ] MatrixFunctionsTest.Inverse (0 ms)
+[----------] 7 tests from MatrixFunctionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 25 tests from 5 test suites ran. (0 ms total)
+[  PASSED  ] 25 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LibMathTests" end time: Jan 06 16:21 CST
+"LibMathTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 06 16:21 CST

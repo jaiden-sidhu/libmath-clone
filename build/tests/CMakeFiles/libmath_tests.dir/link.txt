@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/libmath_tests.dir/test_arithmetic.cpp.o CMakeFiles/libmath_tests.dir/test_factorial.cpp.o CMakeFiles/libmath_tests.dir/test_prime.cpp.o CMakeFiles/libmath_tests.dir/test_gcd.cpp.o CMakeFiles/libmath_tests.dir/test_matrix.cpp.o -o libmath_tests  ../src/liblibmath.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 
