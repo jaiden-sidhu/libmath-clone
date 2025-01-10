@@ -1,0 +1,26 @@
+# Automatically checks coverage using GitHub Actions
+
+name: Code Coverage
+
+on: [push, pull_request]
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up CMake
+      uses: lukka/get-cmake@v3
+    - name: Build and test with coverage
+      run: |
+        cmake -S . -B build -DCMAKE_BUILD_TYPE=Coverage
+        cmake --build build
+        cd build
+        ctest
+        lcov --capture --directory . --output-file coverage.info
+        genhtml coverage.info --output-directory coverage-report
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report
+        path: build/coverage-report/

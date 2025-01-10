@@ -1,2 +1,2 @@
-LibMathTests 1 0.00467919
+LibMathTests 3 0.00129945
 ---
